@@ -64,7 +64,7 @@ which should show a signal with `timestamp` and `value`.
 
 In this example we use `gpt_detector` pipeline and set some hyperparameters. In this case, we set the thresholding strategy to dynamic. The hyperparameters are optional and can be removed.
 
-In addtion, the `SigLLM` object takes in a `decimal` argument to determine how many digits from the float value include. Here, we don't want to keep any decimal values, so we set it to zero.
+In addition, the `SigLLM` object takes in a `decimal` argument to determine how many digits from the float value include. Here, we don't want to keep any decimal values, so we set it to zero.
 
 ```python3
 from sigllm import SigLLM
@@ -113,7 +113,7 @@ Sarah Alnegheimish, Linh Nguyen, Laure Berti-Equille, Kalyan Veeramachaneni. [Ca
 @inproceedings{alnegheimish2024sigllm,
   title={Can Large Language Models be Anomaly Detectors for Time Series?},
   author={Alnegheimish, Sarah and Nguyen, Linh and Berti-Equille, Laure and Veeramachaneni, Kalyan},
-  booktitle={2024 IEEE International Conferencze on Data Science and Advanced Analytics (IEEE DSAA)},
+  booktitle={2024 IEEE International Conference on Data Science and Advanced Analytics (IEEE DSAA)},
   organization={IEEE},
   year={2024}
 }
